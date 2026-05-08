@@ -31,6 +31,12 @@ brew link --force rustup
 ln -s ${PWD#$HOME/}/launch-agents/env.dotnet.plist ~/Library/LaunchAgents/
 ```
 
+### Java
+
+```sh
+ln -s $(brew --prefix openjdk)/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines
+```
+
 ## Theme and Font
 
 [Dracula](https://draculatheme.com) theme with [JetBrains Mono](https://www.jetbrains.com/lp/mono/) font.
