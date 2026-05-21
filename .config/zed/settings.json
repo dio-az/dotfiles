@@ -109,6 +109,10 @@
 						{ "pattern": "^echo\\b" },
 						{ "pattern": "^sed\\s-n\\b" },
 						{ "pattern": "^wc\\b" },
+						{ "pattern": "^git status\\b" },
+						{ "pattern": "^git --no-pager (log|diff|show)\\b" },
+						{ "pattern": "^git --no-pager tag$" },
+						{ "pattern": "^git --no-pager tag (-l|--list)$" },
 					],
 				},
 				"fetch": {
