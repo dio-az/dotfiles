@@ -108,6 +108,8 @@
 						{ "pattern": "^diff\\b" },
 						{ "pattern": "^echo\\b" },
 						{ "pattern": "^sed\\s-n\\b" },
+						{ "pattern": "^awk\\b" },
+						{ "pattern": "^sort\\b" },
 						{ "pattern": "^wc\\b" },
 						{ "pattern": "^git status\\b" },
 						{ "pattern": "^git --no-pager (log|diff|show)\\b" },
