@@ -124,11 +124,6 @@
 			},
 		},
 	},
-	"agent_servers": {
-		"claude-acp": {
-			"type": "registry",
-		},
-	},
 	"languages": {
 		"TypeScript": {
 			"inlay_hints": {
