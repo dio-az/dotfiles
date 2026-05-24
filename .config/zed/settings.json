@@ -135,6 +135,7 @@
 		},
 	},
 	"edit_predictions": {
+		"allow_data_collection": "no",
 		"provider": "copilot",
 	},
 	"theme": "Dracula",
