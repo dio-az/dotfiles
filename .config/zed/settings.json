@@ -108,7 +108,7 @@
 						{ "pattern": "^find\\b" },
 						{ "pattern": "^diff\\b" },
 						{ "pattern": "^echo\\b" },
-						{ "pattern": "^sed\\s-n\\b" },
+						{ "pattern": "^sed\\b" },
 						{ "pattern": "^awk\\b" },
 						{ "pattern": "^sort\\b" },
 						{ "pattern": "^wc\\b" },
@@ -117,6 +117,7 @@
 						{ "pattern": "^git --no-pager tag$" },
 						{ "pattern": "^git --no-pager tag (-l|--list)$" },
 					],
+					"always_confirm": [{ "pattern": "^sed\\s+-i\\b" }],
 				},
 				"fetch": {
 					"always_allow": [
