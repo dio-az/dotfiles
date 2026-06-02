@@ -30,44 +30,50 @@
 	"agent": {
 		"default_model": {
 			"effort": "high",
-			"provider": "copilot_chat",
-			"model": "claude-sonnet-4.6",
+			"provider": "anthropic",
+			"model": "claude-opus-4-8",
 			"enable_thinking": true,
 		},
 		"inline_assistant_model": {
-			"provider": "copilot_chat",
+			"provider": "openai",
 			"model": "gpt-5.3-codex",
 		},
 		"commit_message_model": {
-			"provider": "copilot_chat",
-			"model": "gpt-5-mini",
+			"provider": "anthropic",
+			"model": "claude-haiku-4-5",
 		},
 		"thread_summary_model": {
-			"provider": "copilot_chat",
-			"model": "gpt-5-mini",
+			"provider": "anthropic",
+			"model": "claude-sonnet-4-6",
+		},
+		"subagent_model": {
+			"provider": "anthropic",
+			"model": "claude-sonnet-4-6",
 		},
 		"inline_alternatives": [
 			{
-				"provider": "copilot_chat",
-				"model": "claude-opus-4.6",
+				"provider": "anthropic",
+				"model": "claude-sonnet-4-6",
+				"enable_thinking": true,
+				"effort": "high",
+			},
+			{
+				"provider": "anthropic",
+				"model": "claude-opus-4-7",
+				"enable_thinking": true,
+				"effort": "high",
 			},
 		],
 		"favorite_models": [
 			{
 				"provider": "anthropic",
-				"model": "claude-sonnet-4-6-latest",
+				"model": "claude-opus-4-8",
 				"enable_thinking": true,
 				"effort": "high",
 			},
 			{
 				"provider": "anthropic",
-				"model": "claude-opus-4-7-latest",
-				"enable_thinking": true,
-				"effort": "high",
-			},
-			{
-				"provider": "copilot_chat",
-				"model": "claude-sonnet-4.6",
+				"model": "claude-sonnet-4-6",
 				"enable_thinking": true,
 				"effort": "high",
 			},
@@ -75,7 +81,7 @@
 				"provider": "copilot_chat",
 				"model": "gpt-5.5",
 				"enable_thinking": true,
-				"effort": "high",
+				"effort": "xhigh",
 			},
 			{
 				"provider": "copilot_chat",
@@ -85,15 +91,9 @@
 			},
 			{
 				"provider": "copilot_chat",
-				"model": "claude-opus-4.6",
+				"model": "claude-opus-4.8",
 				"enable_thinking": true,
-				"effort": "high",
-			},
-			{
-				"provider": "copilot_chat",
-				"model": "gpt-5-mini",
-				"enable_thinking": true,
-				"effort": "high",
+				"effort": "medium",
 			},
 		],
 		"tool_permissions": {
