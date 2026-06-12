@@ -74,5 +74,5 @@ mas "Instapaper", id: 288545208
 # mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
 # mas "TestFlight", id: 899247664
-# mas "WireGuard", id: 1451685025
+mas "WireGuard", id: 1451685025
 # mas "Xcode", id: 497799835
