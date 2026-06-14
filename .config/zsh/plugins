@@ -5,7 +5,6 @@ orbstack/orbstack
 # bootstrap(loads helper), loads compstyle
 mattmc3/zephyr path:plugins/completion
 
-mattmc3/zephyr path:plugins/confd
 mattmc3/zephyr path:plugins/editor
 mattmc3/zephyr path:plugins/history
 mattmc3/zephyr path:plugins/homebrew
@@ -25,3 +24,5 @@ zsh-users/zsh-autosuggestions kind:defer
 zsh-users/zsh-history-substring-search kind:defer
 
 zdharma-continuum/fast-syntax-highlighting
+
+mattmc3/zephyr path:plugins/confd
