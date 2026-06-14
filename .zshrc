@@ -9,6 +9,9 @@ zstyle ':zephyr:plugin:confd' immediate yes
 
 antidote load
 
+# no coloring for fzf compatibility
+zstyle ':completion:*' format ' -- %d --'
+
 tabs -4
 
 export GPG_TTY=$(tty)
