@@ -22,9 +22,9 @@ sorin-ionescu/prezto path:modules/git/alias.zsh
 
 aloxaf/fzf-tab
 
+zdharma-continuum/fast-syntax-highlighting kind:defer
+
 zsh-users/zsh-autosuggestions kind:defer
 zsh-users/zsh-history-substring-search kind:defer
-
-zdharma-continuum/fast-syntax-highlighting
 
 mattmc3/zephyr path:plugins/confd
