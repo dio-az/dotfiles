@@ -35,7 +35,7 @@
 			"enable_thinking": true,
 		},
 		"inline_assistant_model": {
-			"provider": "openai",
+			"provider": "copilot_chat",
 			"model": "gpt-5.3-codex",
 		},
 		"commit_message_model": {
@@ -59,7 +59,7 @@
 			},
 			{
 				"provider": "anthropic",
-				"model": "claude-opus-4-7",
+				"model": "claude-opus-4-8",
 				"enable_thinking": true,
 				"effort": "high",
 			},
@@ -93,7 +93,7 @@
 				"provider": "copilot_chat",
 				"model": "claude-opus-4.8",
 				"enable_thinking": true,
-				"effort": "medium",
+				"effort": "high",
 			},
 		],
 		"tool_permissions": {
