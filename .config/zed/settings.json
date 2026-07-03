@@ -28,6 +28,9 @@
 		"mute_on_join": true,
 	},
 	"agent": {
+		"auto_compact": {
+			"enabled": false,
+		},
 		"default_model": {
 			"effort": "high",
 			"provider": "anthropic",
