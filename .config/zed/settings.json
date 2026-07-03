@@ -99,6 +99,9 @@
 				"effort": "high",
 			},
 		],
+		"sandbox_permissions": {
+			"network_hosts": ["github.com"],
+		},
 		"tool_permissions": {
 			"tools": {
 				"terminal": {
