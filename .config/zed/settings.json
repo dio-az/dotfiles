@@ -28,6 +28,7 @@
 		"mute_on_join": true,
 	},
 	"agent": {
+		"show_turn_stats": true,
 		"auto_compact": {
 			"enabled": false,
 		},
