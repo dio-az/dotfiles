@@ -24,6 +24,9 @@
 			"show_commit_summary": true,
 		},
 	},
+	"git_panel": {
+		"group_by": "staging",
+	},
 	"calls": {
 		"mute_on_join": true,
 	},
