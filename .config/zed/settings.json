@@ -98,7 +98,7 @@
 			},
 		],
 		"sandbox_permissions": {
-			"network_hosts": ["github.com", "raw.githubusercontent.com"],
+			"network_hosts": ["github.com", "api.github.com", "raw.githubusercontent.com"],
 		},
 		"tool_permissions": {
 			"tools": {
