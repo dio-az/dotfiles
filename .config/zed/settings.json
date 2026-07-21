@@ -4,7 +4,6 @@
 	"tab_size": 4,
 	"preferred_line_length": 100,
 	"wrap_guides": [100, 120],
-	"soft_wrap": "none",
 	"show_whitespaces": "all",
 	"colorize_brackets": true,
 	"indent_guides": {
