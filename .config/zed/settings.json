@@ -37,7 +37,7 @@
 		"default_model": {
 			"effort": "high",
 			"provider": "copilot_chat",
-			"model": "claude-opus-4.8",
+			"model": "claude-opus-5",
 			"enable_thinking": true,
 		},
 		"inline_assistant_model": {
@@ -67,7 +67,7 @@
 		"favorite_models": [
 			{
 				"provider": "copilot_chat",
-				"model": "claude-opus-4.8",
+				"model": "claude-opus-5",
 				"enable_thinking": true,
 				"effort": "high",
 			},
