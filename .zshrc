@@ -16,5 +16,4 @@ tabs -4
 
 export GPG_TTY=$(tty)
 export HOMEBREW_NO_ENV_HINTS=1
-export HOMEBREW_GITHUB_API_TOKEN=
 export GOPATH="$XDG_DATA_HOME/go"

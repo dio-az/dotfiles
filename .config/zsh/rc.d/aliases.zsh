@@ -13,4 +13,5 @@ alias gfe='git-for-each'
 alias gSr='git-sync-repo'
 
 alias aws="op plugin run -- aws"
+alias brew="op plugin run -- brew"
 alias gh="op plugin run -- gh"
