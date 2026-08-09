@@ -111,6 +111,7 @@
 						{ "pattern": "^find\\b" },
 						{ "pattern": "^diff\\b" },
 						{ "pattern": "^echo\\b" },
+						{ "pattern": "^printf\\b" },
 						{ "pattern": "^sed\\b" },
 						{ "pattern": "^awk\\b" },
 						{ "pattern": "^sort\\b" },
