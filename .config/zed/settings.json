@@ -116,7 +116,7 @@
 						{ "pattern": "^awk\\b" },
 						{ "pattern": "^sort\\b" },
 						{ "pattern": "^wc\\b" },
-						{ "pattern": "^git --no-pager (log|diff|show)\\b" },
+						{ "pattern": "^git --no-pager (log|diff|show|rev-parse)\\b" },
 						{ "pattern": "^git --no-optional-locks status\\b" },
 						{ "pattern": "^git --no-pager tag$" },
 						{ "pattern": "^git --no-pager tag (-l|--list|--sort=[^\\s]+)$" },
