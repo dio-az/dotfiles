@@ -1,1 +1,1 @@
-eval "$(fnm env --use-on-cd --shell zsh)"
+cached-eval fnm env --use-on-cd --shell zsh
