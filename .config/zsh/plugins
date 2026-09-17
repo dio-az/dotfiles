@@ -2,7 +2,7 @@ zsh-users/zsh-completions kind:fpath path:src
 
 orbstack/orbstack
 
-# bootstrap(loads helper), loads compstyle
+# loads bootstrap and compstyle
 mattmc3/zephyr path:plugins/completion
 
 mattmc3/zephyr path:plugins/editor
@@ -24,7 +24,7 @@ aloxaf/fzf-tab
 
 zdharma-continuum/fast-syntax-highlighting kind:defer
 
-zsh-users/zsh-autosuggestions kind:defer
-zsh-users/zsh-history-substring-search kind:defer
+mattmc3/zephyr path:plugins/autosuggest
+mattmc3/zephyr path:plugins/history-search
 
 mattmc3/zephyr path:plugins/confd
