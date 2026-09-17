@@ -3,6 +3,7 @@ source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
 zstyle ':antidote:bundle' file ~/.config/zsh/plugins
 
 zstyle ':zephyr:plugin:completion' use-cache yes
+zstyle ':zephyr:plugin:editor' dot-expansion yes
 zstyle ':zephyr:plugin:editor:*' cursor style block
 zstyle ':zephyr:plugin:confd' directory ~/.config/zsh/rc.d
 zstyle ':zephyr:plugin:confd' immediate yes
