@@ -1,6 +1,7 @@
 source /opt/homebrew/opt/antidote/share/antidote/antidote.zsh
 
 zstyle ':antidote:bundle' file ~/.config/zsh/plugins
+zstyle ':antidote:snapshot' max 25
 
 zstyle ':zephyr:plugin:completion' use-cache yes
 zstyle ':zephyr:plugin:editor' dot-expansion yes
