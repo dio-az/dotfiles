@@ -151,10 +151,10 @@
 	"theme": "Dracula",
 	"base_keymap": "Atom",
 	"buffer_font_family": "JetBrains Mono",
-	"buffer_font_size": 13.0,
+	"buffer_font_size": 13,
 	"terminal": {
 		"font_family": "Monaco",
-		"minimum_contrast": 0.0,
+		"minimum_contrast": 0,
 	},
 	"telemetry": {
 		"diagnostics": false,
