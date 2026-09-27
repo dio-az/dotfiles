@@ -1,0 +1,41 @@
+theme = dracula
+
+font-family = Monaco
+font-family = Menlo
+font-family = "Apple Symbols"
+
+font-size = 13
+
+font-thicken = true
+font-thicken-strength = 255
+
+# bold-color = #6b75ff
+
+background-opacity = 0.95
+background-blur = 70
+# background-blur = macos-glass-regular
+
+cursor-style = block
+cursor-style-blink = false
+
+window-width = 160
+window-height = 30
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+
+bell-features = no-title
+
+macos-icon = custom
+macos-custom-icon = ~/.config/ghostty/icon.icns
+
+macos-titlebar-style = tabs
+macos-titlebar-proxy-icon = hidden
+
+shell-integration = detect
+shell-integration-features = no-cursor,sudo,ssh-env,ssh-terminfo
+
+scrollback-limit = 50000000
+copy-on-select = clipboard
+mouse-hide-while-typing = true
+

@@ -4,6 +4,8 @@
 !bat/*
 !fsh/
 !fsh/*
+!ghostty/
+!ghostty/*
 !git/
 !git/*
 !zed/
