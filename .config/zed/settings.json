@@ -93,6 +93,9 @@
 		},
 		"tool_permissions": {
 			"tools": {
+				"skill": {
+					"default": "allow",
+				},
 				"terminal": {
 					"always_allow": [
 						{ "pattern": "^cat\\b" },
