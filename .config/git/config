@@ -35,6 +35,7 @@
 [advice]
 	skippedCherryPicks = false
 [delta]
+	tabs = 4
 	navigate = true
 	side-by-side = true
 	syntax-theme = Dracula
