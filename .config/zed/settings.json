@@ -52,10 +52,6 @@
 			"provider": "copilot_chat",
 			"model": "gpt-6-luna",
 		},
-		"compaction_model": {
-			"provider": "copilot_chat",
-			"model": "gpt-6-sol",
-		},
 		"subagent_model": {
 			"provider": "copilot_chat",
 			"model": "claude-sonnet-5-5",
