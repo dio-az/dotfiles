@@ -91,11 +91,29 @@
 			},
 		],
 		"sandbox_permissions": {
-			"network_hosts": ["github.com", "api.github.com", "raw.githubusercontent.com"],
+			"network_hosts": [
+				"*.aws.amazon.com",
+				"ffmpeg.org",
+				"*.github.com",
+				"*.github.io",
+				"*.githubusercontent.com",
+				"gh.io",
+				"github.blog",
+				"github.com",
+				"iso639-3.sil.org",
+				"nginx.org",
+				"*.opentofu.org",
+				"opentofu.org",
+				"*.rfc-editor.org",
+				"zed.dev",
+			],
 		},
 		"tool_permissions": {
 			"tools": {
 				"skill": {
+					"default": "allow",
+				},
+				"fetch": {
 					"default": "allow",
 				},
 				"terminal": {
@@ -136,12 +154,6 @@
 						{ "pattern": "^docker (ps|images|inspect|logs|version|info)\\b" },
 					],
 					"always_confirm": [{ "pattern": "^sed -i\\b" }],
-				},
-				"fetch": {
-					"always_allow": [
-						{ "pattern": "github\\.com" },
-						{ "pattern": "raw\\.githubusercontent\\.com" },
-					],
 				},
 			},
 		},
