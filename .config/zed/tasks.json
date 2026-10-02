@@ -14,8 +14,8 @@
 	},
 	{
 		"label": "Make Nginx",
-		"command": "bear -o ../NginxVodModule/compile_commands.json -- make -j",
-		"cwd": "$ZED_WORKTREE_ROOT/../Nginx",
+		"command": "bear -- make -C ../Nginx -j",
+		"cwd": "$ZED_WORKTREE_ROOT/../NginxVodModule",
 	},
 	{
 		"label": "Origin Demo",
