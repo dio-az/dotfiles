@@ -106,6 +106,7 @@
 				"*.opentofu.org",
 				"opentofu.org",
 				"*.rfc-editor.org",
+				"webmproject.org",
 				"zed.dev",
 			],
 		},
@@ -141,7 +142,7 @@
 						{ "pattern": "^sleep\\b" },
 						{ "pattern": "^true\\b" },
 						{
-							"pattern": "^git( --no-(pager|optional-locks))* (status|log|diff|show|rev-parse|ls-tree|branch|blame|grep|clang-format|worktree|range-diff|ls-files|merge-base)\\b",
+							"pattern": "^git( --no-(pager|optional-locks))* (status|log|diff|show|rev-parse|ls-tree|branch|blame|grep|clang-format|worktree|range-diff|ls-files|merge-base|symbolic-ref)\\b",
 						},
 						{ "pattern": "^git( --no-pager)? tag$" },
 						{ "pattern": "^git( --no-pager)? tag (-l|--list|--sort=[^\\s]+)$" },
