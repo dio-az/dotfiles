@@ -144,6 +144,7 @@
 						},
 						{ "pattern": "^git( --no-pager)? tag$" },
 						{ "pattern": "^git( --no-pager)? tag (-l|--list|--sort=[^\\s]+)$" },
+						{ "pattern": "^gh run (list|view)\\b" },
 						{ "pattern": "^go (test|build|vet|doc|list|version)\\b" },
 						{ "pattern": "^gofmt\\b" },
 						{ "pattern": "^(tofu|terraform) (fmt|validate|show|init)\\b" },
