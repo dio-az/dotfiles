@@ -91,6 +91,7 @@
 			},
 		],
 		"sandbox_permissions": {
+			"write_paths": ["/tmp"],
 			"network_hosts": [
 				"*.aws.amazon.com",
 				"ffmpeg.org",
