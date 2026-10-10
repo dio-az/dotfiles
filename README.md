@@ -9,7 +9,7 @@ curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | 
 
 brew bundle
 
-ln -s ${PWD#$HOME/}/.config ${PWD#$HOME/}/.ssh ${PWD#$HOME/}/.vimrc ~
+ln -sfn $PWD/.config $PWD/.ssh $PWD/.vimrc ~
 cp .zshrc ~
 ```
 
@@ -28,13 +28,13 @@ brew link --force rustup
 ### .NET
 
 ```sh
-ln -s ${PWD#$HOME/}/launch-agents/env.dotnet.plist ~/Library/LaunchAgents/
+ln -sfn  $PWD/launch-agents/env.dotnet.plist ~/Library/LaunchAgents/
 ```
 
 ### Java
 
 ```sh
-ln -s $(brew --prefix openjdk)/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines
+ln -sfn $(brew --prefix openjdk)/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines
 ```
 
 ## Theme and Font
