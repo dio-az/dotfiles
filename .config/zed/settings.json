@@ -79,6 +79,12 @@
 			},
 			{
 				"provider": "copilot_chat",
+				"model": "gemini-4-argon",
+				"enable_thinking": true,
+				"effort": "high"
+			},
+			{
+				"provider": "copilot_chat",
 				"model": "gpt-6-astra",
 				"enable_thinking": true,
 				"effort": "high",
