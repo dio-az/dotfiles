@@ -99,8 +99,10 @@
 		"sandbox_permissions": {
 			"write_paths": ["/tmp"],
 			"network_hosts": [
+				"developer.apple.com",
 				"*.aws.amazon.com",
 				"ffmpeg.org",
+				"dashif.org",
 				"*.github.com",
 				"*.github.io",
 				"*.githubusercontent.com",
@@ -108,6 +110,7 @@
 				"github.blog",
 				"github.com",
 				"iso639-3.sil.org",
+				"learn.microsoft.com",
 				"nginx.org",
 				"*.opentofu.org",
 				"opentofu.org",
