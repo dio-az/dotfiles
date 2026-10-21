@@ -151,11 +151,11 @@
 						{ "pattern": "^sleep\\b" },
 						{ "pattern": "^true\\b" },
 						{
-							"pattern": "^git( --no-(pager|optional-locks))* (status|log|diff|show|rev-parse|ls-tree|branch|blame|grep|clang-format|worktree|range-diff|ls-files|merge-base|symbolic-ref)\\b",
+							"pattern": "^git( -C [^\\s]+)?( --no-(pager|optional-locks))* (status|log|reflog|diff|show|rev-parse|ls-tree|branch|blame|grep|clang-format|worktree|range-diff|ls-files|merge-base|symbolic-ref)\\b",
 						},
 						{ "pattern": "^git( --no-pager)? tag$" },
 						{ "pattern": "^git( --no-pager)? tag (-l|--list|--sort=[^\\s]+)$" },
-						{ "pattern": "^gh run (list|view)\\b" },
+						{ "pattern": "^gh (run|pr) (list|view)\\b" },
 						{ "pattern": "^go (test|build|vet|doc|list|version)\\b" },
 						{ "pattern": "^gofmt\\b" },
 						{ "pattern": "^(tofu|terraform) (fmt|validate|show|init)\\b" },
