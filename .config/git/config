@@ -23,6 +23,7 @@
 	editor = vim
 	excludesFile = ~/.config/git/ignore
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	untrackedCache = true
 [interactive]
 	diffFilter = delta --color-only
 [merge]
