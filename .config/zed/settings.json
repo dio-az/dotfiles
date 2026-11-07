@@ -134,6 +134,7 @@
 						{ "pattern": "^head\\b" },
 						{ "pattern": "^tail\\b" },
 						{ "pattern": "^read\\b" },
+						{ "pattern": "^stat\\b" },
 						{ "pattern": "^(grep|rg)\\b" },
 						{ "pattern": "^find\\b" },
 						{ "pattern": "^diff\\b" },
