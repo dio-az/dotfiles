@@ -79,9 +79,15 @@
 			},
 			{
 				"provider": "copilot_chat",
+				"model": "gemini-4-carbon",
+				"enable_thinking": true,
+				"effort": "high",
+			},
+			{
+				"provider": "copilot_chat",
 				"model": "gemini-4-argon",
 				"enable_thinking": true,
-				"effort": "high"
+				"effort": "high",
 			},
 			{
 				"provider": "copilot_chat",
