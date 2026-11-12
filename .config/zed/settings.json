@@ -138,6 +138,7 @@
 				},
 				"terminal": {
 					"always_allow": [
+						{ "pattern": "^printenv TMPDIR$" },
 						{ "pattern": "^cat\\b" },
 						{ "pattern": "^ls\\b" },
 						{ "pattern": "^head\\b" },
