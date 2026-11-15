@@ -35,10 +35,10 @@
 			"enabled": false,
 		},
 		"default_model": {
-			"effort": "high",
 			"provider": "copilot_chat",
-			"model": "claude-opus-5-5",
+			"model": "gemini-4-carbon",
 			"enable_thinking": true,
+			"effort": "medium",
 		},
 		"inline_assistant_model": {
 			"provider": "copilot_chat",
@@ -46,28 +46,38 @@
 		},
 		"commit_message_model": {
 			"provider": "copilot_chat",
-			"model": "gemini-3.8-flash",
+			"model": "gpt-6.1-terra",
 		},
 		"thread_summary_model": {
 			"provider": "copilot_chat",
-			"model": "gpt-6-luna",
+			"model": "claude-haiku-5.5",
+		},
+		"compaction_model": {
+			"provider": "copilot_chat",
+			"model": "gemini-4-hydrogen",
 		},
 		"subagent_model": {
 			"provider": "copilot_chat",
-			"model": "claude-sonnet-5-5",
+			"model": "gemini-4-hydrogen",
 			"enable_thinking": true,
 			"effort": "high",
 		},
 		"favorite_models": [
 			{
 				"provider": "copilot_chat",
-				"model": "claude-opus-5-5",
+				"model": "gemini-4-carbon",
 				"enable_thinking": true,
-				"effort": "high",
+				"effort": "medium",
 			},
 			{
 				"provider": "copilot_chat",
-				"model": "claude-sonnet-5-5",
+				"model": "claude-opus-5.5",
+				"enable_thinking": true,
+				"effort": "xhigh",
+			},
+			{
+				"provider": "copilot_chat",
+				"model": "gemini-4-hydrogen",
 				"enable_thinking": true,
 				"effort": "high",
 			},
@@ -75,31 +85,7 @@
 				"provider": "copilot_chat",
 				"model": "gpt-6.1-sol",
 				"enable_thinking": true,
-				"effort": "high",
-			},
-			{
-				"provider": "copilot_chat",
-				"model": "gemini-4-carbon",
-				"enable_thinking": true,
-				"effort": "high",
-			},
-			{
-				"provider": "copilot_chat",
-				"model": "gemini-4-argon",
-				"enable_thinking": true,
-				"effort": "high",
-			},
-			{
-				"provider": "copilot_chat",
-				"model": "gpt-6-astra",
-				"enable_thinking": true,
-				"effort": "high",
-			},
-			{
-				"provider": "copilot_chat",
-				"model": "gemini-3.8-flash",
-				"enable_thinking": true,
-				"effort": "high",
+				"effort": "xhigh",
 			},
 		],
 		"sandbox_permissions": {
