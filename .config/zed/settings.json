@@ -1,7 +1,5 @@
 {
-	"format_on_save": "off",
 	"hard_tabs": true,
-	"tab_size": 4,
 	"preferred_line_length": 100,
 	"wrap_guides": [100, 120],
 	"show_whitespaces": "all",
@@ -182,7 +180,6 @@
 		},
 	},
 	"edit_predictions": {
-		"allow_data_collection": "no",
 		"provider": "copilot",
 	},
 	"theme": "Dracula",
