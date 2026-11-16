@@ -9,6 +9,8 @@ zstyle ':zephyr:plugin:editor:*' cursor style block
 zstyle ':zephyr:plugin:confd' directory ~/.config/zsh/rc.d
 zstyle ':zephyr:plugin:confd' immediate yes
 
+zstyle ':hexagon' components exit timer git
+
 antidote load
 
 # no coloring for fzf compatibility
