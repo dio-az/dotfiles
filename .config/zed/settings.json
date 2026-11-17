@@ -126,7 +126,7 @@
 						{ "pattern": "^(cat|ls|head|tail|nl|stat|wc)\\b" },
 						{ "pattern": "^(grep|rg|find|diff)\\b" },
 						{ "pattern": "^(sed|awk|cut|sort|uniq|tr|jq)\\b" },
-						{ "pattern": "^(echo|printf|read|which|command|sleep|true)\\b" },
+						{ "pattern": "^(echo|printf|read|strings|which|command|sleep|true)\\b" },
 						{
 							"pattern": "^git( -C [^\\s]+)?( --no-(pager|optional-locks))* (status|log|reflog|diff|show|rev-parse|ls-tree|branch|blame|grep|clang-format|worktree|range-diff|ls-files|merge-base|symbolic-ref)\\b",
 						},
