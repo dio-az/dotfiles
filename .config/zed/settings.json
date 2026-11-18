@@ -159,6 +159,12 @@
 		"Atlassian": {
 			"url": "https://mcp.atlassian.com/v2/mcp",
 		},
+		"GitHub": {
+			"url": "https://api.githubcopilot.com/mcp",
+			"oauth": {
+				"client_id": "Ov23liBz9ZFGVMPiR9U0",
+			},
+		},
 	},
 	"languages": {
 		"TypeScript": {
