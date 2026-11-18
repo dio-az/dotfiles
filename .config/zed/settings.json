@@ -155,6 +155,11 @@
 			},
 		},
 	},
+	"context_servers": {
+		"Atlassian": {
+			"url": "https://mcp.atlassian.com/v2/mcp",
+		},
+	},
 	"languages": {
 		"TypeScript": {
 			"inlay_hints": {
