@@ -39,17 +39,17 @@
 		},
 		"default_model": {
 			"provider": "anthropic",
-			"model": "gemini-4-carbon",
+			"model": "gemini-4-neon",
 			"enable_thinking": true,
-			"effort": "medium",
+			"effort": "xhigh",
 		},
 		"inline_assistant_model": {
 			"provider": "anthropic",
-			"model": "gpt-6.1-sol",
+			"model": "gpt-6.2-sol",
 		},
 		"commit_message_model": {
 			"provider": "anthropic",
-			"model": "gpt-6.1-terra",
+			"model": "gpt-6.2-sol",
 		},
 		"thread_summary_model": {
 			"provider": "anthropic",
@@ -61,16 +61,22 @@
 		},
 		"subagent_model": {
 			"provider": "anthropic",
-			"model": "gemini-4-hydrogen",
+			"model": "gpt-6.2-sol",
 			"enable_thinking": true,
 			"effort": "high",
 		},
 		"favorite_models": [
 			{
 				"provider": "anthropic",
-				"model": "gemini-4-carbon",
+				"model": "gemini-4-neon",
 				"enable_thinking": true,
-				"effort": "medium",
+				"effort": "xhigh",
+			},
+			{
+				"provider": "anthropic",
+				"model": "gpt-6.2-astra",
+				"enable_thinking": true,
+				"effort": "xhigh",
 			},
 			{
 				"provider": "anthropic",
@@ -80,15 +86,9 @@
 			},
 			{
 				"provider": "anthropic",
-				"model": "gemini-4-hydrogen",
+				"model": "gpt-6.2-sol",
 				"enable_thinking": true,
 				"effort": "high",
-			},
-			{
-				"provider": "anthropic",
-				"model": "gpt-6.1-sol",
-				"enable_thinking": true,
-				"effort": "xhigh",
 			},
 		],
 		"sandbox_permissions": {
